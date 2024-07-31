@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Registration <Form></Form></title>
+    <script src="sham.js"></script>
+</head>
+<body>
+    <h1>Employee Registration Form</h1>
+    <div class="container">
+        <label for="name">NAME</label>
+        <br>
+        <input type="text" id="Full Name" class="Full Name">
+        <br><br>
+        <label for="designation">Designation</label>
+        <br>
+        <input type="text" id="designation" class="designation">
+        <br><br>
+        <label for="department">Department</label>
+        <select name="department" id="department">
+            <option value="" disabled selected>Select Department</option>
+            <option value="HR">HR</option>
+            <option value="IT">IT</option>
+            <option value="Finance">Finance</option>
+            <option value="Marketing">Marketing</option>
+            
+        </select>
+        <br><br>
+        <label for="salary">Salary</label>
+        <br>
+        <input type="number" id="salary" name="salary" step="0.01">
+        <br><br>
+        <label for="address">Address</label>
+        <br>
+                <textarea id="address" name="address" rows="4" ></textarea>
+                <br><br>
+                <label for="email">Email:</label>
+                <br>
+                <input type="email" id="email" name="email" >
+                <br><br>
+                <label for="phone">Phone Number:</label>
+                <br>
+                <input type="tel" id="phone" name="phone">
+                <br><br>
+                <button type="submit">Register</button>
+
+        
+
+    </div>
+    
+</body>
+</html
